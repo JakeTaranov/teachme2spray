@@ -3,6 +3,7 @@ import time
 
 GRAVE = 0x29
 ENTER = 0x1C
+ESC = 0x01
 
 SendInput = ctypes.windll.user32.SendInput
 
